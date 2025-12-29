@@ -1,0 +1,16 @@
+name = "zhanxia-website"
+compatibility_date = "2024-12-29"
+pages_build_output_dir = ".next"
+
+[site]
+bucket = ".next"
+
+# 环境变量配置（生产环境）
+[env.production]
+# 这里可以添加生产环境的环境变量
+# SUPABASE_URL = "your-supabase-url"
+# SUPABASE_ANON_KEY = "your-supabase-key"
+
+# 环境变量配置（预览环境）
+[env.preview]
+# 这里可以添加预览环境的环境变量
