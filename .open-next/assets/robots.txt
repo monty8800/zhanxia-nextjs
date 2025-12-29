@@ -1,0 +1,28 @@
+# robots.txt for zhan1x.com
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /*.json$
+
+# Sitemap
+Sitemap: https://zhan1x.com/sitemap.xml
+
+# Baidu Spider
+User-agent: Baiduspider
+Allow: /
+
+# Google Bot
+User-agent: Googlebot
+Allow: /
+
+# 360 Spider
+User-agent: 360Spider
+Allow: /
+
+# Sogou Spider
+User-agent: Sogou web spider
+Allow: /
+
+# Bing Bot
+User-agent: bingbot
+Allow: /

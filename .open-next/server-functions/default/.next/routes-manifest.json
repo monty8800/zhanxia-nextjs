@@ -1,0 +1,221 @@
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "app",
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [
+    {
+      "page": "/admin/cases/[id]/edit",
+      "regex": "^/admin/cases/([^/]+?)/edit(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/admin/cases/(?<nxtPid>[^/]+?)/edit(?:/)?$"
+    },
+    {
+      "page": "/admin/faqs/[id]/edit",
+      "regex": "^/admin/faqs/([^/]+?)/edit(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/admin/faqs/(?<nxtPid>[^/]+?)/edit(?:/)?$"
+    },
+    {
+      "page": "/admin/services/[id]/edit",
+      "regex": "^/admin/services/([^/]+?)/edit(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/admin/services/(?<nxtPid>[^/]+?)/edit(?:/)?$"
+    },
+    {
+      "page": "/admin/testimonials/[id]/edit",
+      "regex": "^/admin/testimonials/([^/]+?)/edit(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/admin/testimonials/(?<nxtPid>[^/]+?)/edit(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/about",
+      "regex": "^/about(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about(?:/)?$"
+    },
+    {
+      "page": "/admin",
+      "regex": "^/admin(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin(?:/)?$"
+    },
+    {
+      "page": "/admin/cases",
+      "regex": "^/admin/cases(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/cases(?:/)?$"
+    },
+    {
+      "page": "/admin/cases/new",
+      "regex": "^/admin/cases/new(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/cases/new(?:/)?$"
+    },
+    {
+      "page": "/admin/faqs",
+      "regex": "^/admin/faqs(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/faqs(?:/)?$"
+    },
+    {
+      "page": "/admin/faqs/new",
+      "regex": "^/admin/faqs/new(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/faqs/new(?:/)?$"
+    },
+    {
+      "page": "/admin/services",
+      "regex": "^/admin/services(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/services(?:/)?$"
+    },
+    {
+      "page": "/admin/services/new",
+      "regex": "^/admin/services/new(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/services/new(?:/)?$"
+    },
+    {
+      "page": "/admin/settings",
+      "regex": "^/admin/settings(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/settings(?:/)?$"
+    },
+    {
+      "page": "/admin/stats",
+      "regex": "^/admin/stats(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/stats(?:/)?$"
+    },
+    {
+      "page": "/admin/testimonials",
+      "regex": "^/admin/testimonials(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/testimonials(?:/)?$"
+    },
+    {
+      "page": "/admin/testimonials/new",
+      "regex": "^/admin/testimonials/new(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/testimonials/new(?:/)?$"
+    },
+    {
+      "page": "/cases",
+      "regex": "^/cases(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/cases(?:/)?$"
+    },
+    {
+      "page": "/check-auth",
+      "regex": "^/check\\-auth(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/check\\-auth(?:/)?$"
+    },
+    {
+      "page": "/contact",
+      "regex": "^/contact(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/contact(?:/)?$"
+    },
+    {
+      "page": "/faq",
+      "regex": "^/faq(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/faq(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/login",
+      "regex": "^/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/login(?:/)?$"
+    },
+    {
+      "page": "/services",
+      "regex": "^/services(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services(?:/)?$"
+    },
+    {
+      "page": "/test-data",
+      "regex": "^/test\\-data(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/test\\-data(?:/)?$"
+    },
+    {
+      "page": "/test-supabase",
+      "regex": "^/test\\-supabase(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/test\\-supabase(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}
