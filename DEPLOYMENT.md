@@ -36,11 +36,11 @@ Node.js 版本: 18 或更高
 
 ```bash
 # Supabase 配置
-NEXT_PUBLIC_SUPABASE_URL=https://kkfjnzdndotqhieeukuk.supabase.co
-NEXT_PUBLIC_SUPABASE_ANON_KEY=sb_publishable_4S8TQbEs__7ZqZlOHg-MgQ_zJOewc88
+NEXT_PUBLIC_SUPABASE_URL=<你的Supabase项目URL>
+NEXT_PUBLIC_SUPABASE_ANON_KEY=<你的Supabase匿名密钥>
 
 # 统计配置
-NEXT_PUBLIC_GTM_ID=GTM-PT82WKHS
+NEXT_PUBLIC_GTM_ID=<你的Google Tag Manager ID>
 NEXT_PUBLIC_BAIDU_ANALYTICS_ID=your-baidu-id
 ```
 
