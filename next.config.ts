@@ -1,9 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export', // 静态导出模式，适合 Cloudflare Pages
+  // 不使用静态导出，支持动态路由
   images: {
-    unoptimized: true, // Cloudflare Pages 需要禁用图片优化
     remotePatterns: [
       {
         protocol: 'https',
