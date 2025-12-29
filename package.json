@@ -5,6 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "pages:build": "npx @opennextjs/cloudflare",
+    "pages:deploy": "wrangler pages deploy .open-next/worker",
+    "pages:dev": "wrangler pages dev .open-next/worker --compatibility-flag=nodejs_compat",
     "start": "next start",
     "lint": "eslint"
   },
@@ -17,6 +20,7 @@
     "react-icons": "^5.5.0"
   },
   "devDependencies": {
+    "@opennextjs/cloudflare": "^1.14.7",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
