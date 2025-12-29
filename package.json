@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "pages:build": "npx @opennextjs/cloudflare build",
+    "pages:build": "rm -rf .open-next && npx @opennextjs/cloudflare build",
     "pages:deploy": "wrangler pages deploy .open-next/worker",
     "pages:dev": "wrangler pages dev .open-next/worker --compatibility-flag=nodejs_compat",
     "start": "next start",
